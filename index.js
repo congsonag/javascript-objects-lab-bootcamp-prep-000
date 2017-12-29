@@ -13,11 +13,3 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
-function deleteFromObjectByKey(object, key) {
-  clone = Object.assign({}, object, object);
-  clone
-}
-
-
-
-console.log(deleteFromObjectByKey(recipes, 'dinner'))
