@@ -13,9 +13,9 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
-// function deleteFromObjectByKey(object, key) {
-//   var cloneObject = Object.assign( {}, object);
-//   delete cloneObject.key;
-//   return cloneObject
-// }
+function deleteFromObjectByKey(object, key) {
+  var cloneObject = Object.assign( {}, object);
+  delete cloneObject.key;
+  return cloneObject
+}
 // console.log(deleteFromObjectByKey(recipes, 'breakfast'))
