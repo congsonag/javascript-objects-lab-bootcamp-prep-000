@@ -18,4 +18,6 @@ function deleteFromObjectByKey(object, key) {
   cloneObject[key] = undefined;
   return cloneObject
 }
-// console.log(deleteFromObjectByKey(recipes, 'breakfast'))
+function destructivelyDeleteFromObjectByKey(object, key) {
+  
+}
